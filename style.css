@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;800&display=swap');
+
+--root {
+  --modal-duration: 1s;
+  --primary-color: #cfb9ff;
+  --secondary-color: #dcff79;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inconsolata', monospace;
+  margin: 0;
+}

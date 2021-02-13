@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Landing Page</title>
+    <title>Retro Vibes - Landing Page</title>
   </head>
   <body>
     <nav>
@@ -20,8 +20,112 @@
           alt="user-profile"
         />
       </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </nav>
 
+    <header>
+      <button id="toggle" class="toggle"><i class="fas fa-bars"></i></button>
+
+      <h1>Landing Page</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, dolorem
+        quasi. Culpa, corporis animi veniam quo tenetur laboriosam praesentium
+        expedita molestias saepe, voluptate hic obcaecati qui? Laborum possimus
+        aut saepe.
+      </p>
+      <button class="cta-btn" id="open">Register</button>
+    </header>
+
+    <div class="container">
+      <h2>Welcome to Retro Vibes Start Up</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+        praesentium necessitatibus recusandae deleniti voluptatibus, iste eius
+        ipsa? In repellat unde ea, nam officia, nihil deserunt eligendi aliquid,
+        recusandae veniam sed?
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
+        consequatur quam voluptas repellat numquam. Tenetur eum laborum corporis
+        repudiandae doloribus?
+      </p>
+
+      <h2>Tell Me More</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+        consequuntur, et voluptatum animi quia est praesentium libero saepe
+        facere architecto aliquam tempore sit rerum, in voluptatem nemo
+        obcaecati voluptas molestiae reiciendis cum accusamus impedit,
+        dignissimos porro minima. Ratione, nesciunt cumque!
+      </p>
+
+      <h2>Benefits</h2>
+      <ul>
+        <li>Lifetime Access</li>
+        <li>7-Day FREE Trial</li>
+        <li>Unlimited Customer Support</li>
+        <li>Build Your Tribe, Earn Money!</li>
+      </ul>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores dolore
+        beatae vero odio commodi illo eius omnis obcaecati? Rerum blanditiis
+        reiciendis autem dicta quasi aspernatur, quidem debitis accusantium
+        obcaecati in vero est aliquam porro nihil quis minus error nulla ipsum
+        ad alias nesciunt dolorum magni hic quaerat! Enim, architecto
+        laboriosam.
+      </p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Register</h3>
+        </div>
+        <div class="modal-content">
+          <p>
+            Register with us for the latest offers, support and membership
+            perks!
+          </p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Username</label>
+              <input type="text" id="username" placeholder="Enter Username" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter Email" />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+              />
+            </div>
+            <div>
+              <label for="password2">Confirm Password</label>
+              <input
+                type="password2"
+                id="password2"
+                placeholder="Confirm Password"
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

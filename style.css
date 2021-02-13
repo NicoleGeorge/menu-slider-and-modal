@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;800&display=swap');
 
---root {
+:root {
   --modal-duration: 1s;
   --primary-color: #cfb9ff;
   --secondary-color: #dcff79;
@@ -13,4 +13,17 @@
 body {
   font-family: 'Inconsolata', monospace;
   margin: 0;
+}
+
+nav {
+  background-color: var(--primary-color);
+  border-right: 2px solid rgba(200, 200, 200, 0.1);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  z-index: 100;
+  /* transform: translateX(-100%); */
 }

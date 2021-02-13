@@ -20,3 +20,9 @@ open.addEventListener('click', () => {
 close.addEventListener('click', () => {
   modal.classList.remove('show-modal');
 });
+
+// HODE MODAL WHEN CLICKING OUTSIDE MODAL
+
+window.addEventListener('click', (e) =>
+  e.target == modal ? modal.classList.remove('show-modal') : false
+);
